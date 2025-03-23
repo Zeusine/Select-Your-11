@@ -1,0 +1,100 @@
+[
+      {
+        "name": "Virat Kohli",
+        "country": "India",
+        "position": "Batsman",
+        "hand_used": "Right-hand",
+        "price": 2500000,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg"
+      },
+      {
+        "name": "Steve Smith",
+        "country": "Australia",
+        "position": "Batsman",
+        "hand_used": "Right-hand",
+        "price": 2200000,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/STEVE_SMITH_%2811705303043%29.jpg/1200px-STEVE_SMITH_%2811705303043%29.jpg"
+      },
+      {
+        "name": "Babar Azam",
+        "country": "Pakistan",
+        "position": "Batsman",
+        "hand_used": "Right-hand",
+        "price": 2100000,
+        "img": "https://www.aljazeera.com/wp-content/uploads/2024/06/AFP__20240530__34UE7A9__v1__HighRes__776146379-1717617996.jpg?resize=1800%2C1800"
+      },
+      {
+        "name": "Joe Root",
+        "country": "England",
+        "position": "Batsman",
+        "hand_used": "Right-hand",
+        "price": 2000000,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Joe_Root_HIP1487_%28cropped%29.jpg"
+      },
+      {
+        "name": "Kane Williamson",
+        "country": "New Zealand",
+        "position": "Batsman",
+        "hand_used": "Right-hand",
+        "price": 2300000,
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/65.png"
+      },
+      {
+        "name": "David Warner",
+        "country": "Australia",
+        "position": "Batsman",
+        "hand_used": "Left-hand",
+        "price": 2150000,
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/65.png"
+      },
+      {
+        "name": "Rohit Sharma",
+        "country": "India",
+        "position": "Batsman",
+        "hand_used": "Right-hand",
+        "price": 2250000,
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/65.png"
+      },
+      {
+        "name": "Jos Buttler",
+        "country": "England",
+        "position": "Wicketkeeper",
+        "hand_used": "Right-hand",
+        "price": 1950000,
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/65.png"
+      },
+      {
+        "name": "Shakib Al Hasan",
+        "country": "Bangladesh",
+        "position": "All-rounder",
+        "hand_used": "Left-hand",
+        "price": 1900000,
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/65.png"
+      },
+      {
+        "name": "Trent Boult",
+        "country": "New Zealand",
+        "position": "Bowler",
+        "hand_used": "Left-hand",
+        "price": 1850000,
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/65.png"
+      },
+      {
+        "name": "Rashid Khan",
+        "country": "Afghanistan",
+        "position": "Bowler",
+        "hand_used": "Right-hand",
+        "price": 1750000,
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/65.png"
+      },
+      {
+        "name": "Andre Russell",
+        "country": "West Indies",
+        "position": "All-rounder",
+        "hand_used": "Right-hand",
+        "price": 2100000,
+        "img": "https://documents.iplt20.com/ipl/IPLHeadshot2024/65.png"
+      }
+    ]
+
+  
