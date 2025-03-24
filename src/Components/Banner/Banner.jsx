@@ -33,6 +33,7 @@ const Banner = ({ handleCoin }) => {
                             draggable
                             pauseOnHover
                             theme="light"
+                            className="mt-8"
                             
                         />
 

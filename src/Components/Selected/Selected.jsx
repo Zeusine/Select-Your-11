@@ -1,6 +1,7 @@
 import React from 'react';
 import { CiCircleRemove } from "react-icons/ci";
-const Selected = ({ chosenCricketers,handleRemove }) => {
+import Carts from '../carts/carts';
+const Selected = ({ chosenCricketers,handleRemove,handleAddMorePlayers,button }) => {
     console.log(chosenCricketers)
 
     return (
@@ -22,6 +23,10 @@ const Selected = ({ chosenCricketers,handleRemove }) => {
                 </div>
 
             )}
+            <button className='btn' onClick={handleAddMorePlayers}>Add More Players</button>
+            {
+                button == true && <Carts></Carts>
+            }
 
 
         </div>

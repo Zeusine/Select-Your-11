@@ -14,6 +14,10 @@ const CartNav = ({cricketers,handleChosenPlayers,chosenCricketers,handleRemove})
         
     }
 
+    const handleAddMorePlayers = () => {
+        setButton(true);
+    }
+
     
     
 
@@ -31,7 +35,7 @@ const CartNav = ({cricketers,handleChosenPlayers,chosenCricketers,handleRemove})
             </div>
             <div>
                 {
-                    button == true? <Carts cricketers = {cricketers} handleChosenPlayers={handleChosenPlayers}></Carts> : <Selected chosenCricketers={chosenCricketers} handleRemove={handleRemove}></Selected>
+                    button == true? <Carts cricketers = {cricketers} handleChosenPlayers={handleChosenPlayers}></Carts> : <Selected chosenCricketers={chosenCricketers} handleRemove={handleRemove} handleAddMorePlayers={handleAddMorePlayers} button={button}></Selected>
                 }
                 
                 
