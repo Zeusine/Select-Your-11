@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Cart = ({ cricketer }) => {
+const Cart = ({ cricketer,handleChosenPlayers }) => {
     const { img, name, country, position, hand_used, price } = cricketer
     
 
@@ -29,7 +29,7 @@ const Cart = ({ cricketer }) => {
 
                         <div className='flex justify-between'>
                             <p>Price: <span className='text-gray-500'>$ {price}</span></p>
-                            <button className="btn font-light border-none text-gray-500">Choose Player</button>
+                            <button className="btn font-light border-none text-gray-500" onClick={() => handleChosenPlayers(cricketer)}>Choose Player</button>
 
                         </div>
                     </div>

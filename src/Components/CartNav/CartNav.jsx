@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Carts from '../carts/carts';
 import Selected from '../Selected/Selected';
 
-const CartNav = ({cricketers}) => {
+const CartNav = ({cricketers,handleChosenPlayers,chosenCricketers,handleRemove}) => {
     const [button, setButton] = useState(true);
 
     const handleAvailableButton= () => {
@@ -21,7 +21,8 @@ const CartNav = ({cricketers}) => {
     return (
         <div className='relative mb-50'>
             <div className='flex justify-between mt-10'>
-                <h3>Available Players</h3>
+                {button == true?<h3 className='font-bold text-2xl'>Available Players</h3>:<h3 className='font-bold text-2xl'>Selected Players({chosenCricketers.length}/6)</h3> }
+                
                 <div>
                     <button onClick={() => handleAvailableButton()} className={`btn border-none ${button == true? "bg-[#E7FE29]": "bg-gray-200 text-gray-500" }`}>Available
                     </button>
@@ -30,7 +31,7 @@ const CartNav = ({cricketers}) => {
             </div>
             <div>
                 {
-                    button == true? <Carts cricketers = {cricketers}></Carts> : <Selected></Selected>
+                    button == true? <Carts cricketers = {cricketers} handleChosenPlayers={handleChosenPlayers}></Carts> : <Selected chosenCricketers={chosenCricketers} handleRemove={handleRemove}></Selected>
                 }
                 
                 
