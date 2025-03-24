@@ -19,7 +19,7 @@ const CartNav = ({cricketers}) => {
 
 
     return (
-        <div>
+        <div className='relative mb-50'>
             <div className='flex justify-between mt-10'>
                 <h3>Available Players</h3>
                 <div>
